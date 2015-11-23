@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 		options: {
 		  outputStyle: 'nested', //Set your prefered style for development here.
 		  includePaths: [
-			'node_modules/foundation-sites/scss',
+			'node_modules/foundation-sites/scss',			
 			'node_modules/motion-ui/src'
 		  ],
 		  sourceMap: true

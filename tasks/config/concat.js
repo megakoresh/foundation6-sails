@@ -17,6 +17,7 @@ module.exports = function(grunt) {
 			src: [
 				'node_modules/jquery/dist/jquery.js',
 				'node_modules/what-input/what-input.js',
+				'node_modules/motion-ui/motion_ui.js',
 				'node_modules/foundation-sites/js/foundation.core.js',
 				'node_modules/foundation-sites/js/foundation.util.*.js',
 				'node_modules/foundation-sites/js/foundation.*.js'						
