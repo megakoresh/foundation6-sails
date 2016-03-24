@@ -17,3 +17,6 @@ And the default page will be Foundation 6 kitchen sink. Take note, that in keepi
  ```
  All import paths by default consider `node_modules/foundation-sites/scss` and `node_modules\motion-ui\src` as root. I hope there won't be any directory name overlaps between those 2, which would break this behaviour. 
  This project is configured to use Jade.
+##Generator
+Hey, I made this into a generator so it's easier to use now (and doesn't force Jade on you, though in all honesty, we all swap ejs for something usable anyway).
+[Here it is](https://www.npmjs.com/package/sails-generate-foundation)
