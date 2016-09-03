@@ -29,13 +29,7 @@ module.exports = function(grunt) {
 				cwd: 'node_modules/foundation-sites/js',
 				src: ['util-map.json'],
 				dest: '.tmp/public/js/dependencies'
-			},
-			{
-				expand: true,
-				cwd: 'node_modules/foundation-sites/js',
-				src: ['util-map.json'],
-				dest: 'assets/js/dependencies'
-			},
+			}
 			]
 		},
 		build: {
